@@ -1,8 +1,8 @@
-﻿using _24Wellness.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using TennisWeb.Models;
 
-namespace _24Wellness.Controllers
+namespace TennisWeb.Controllers
 {
     public class HomeController : Controller
     {

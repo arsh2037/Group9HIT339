@@ -1,4 +1,4 @@
-namespace _24Wellness.Models
+namespace TennisWeb.Models
 {
     public class ErrorViewModel
     {

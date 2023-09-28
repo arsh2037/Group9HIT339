@@ -2,16 +2,14 @@
 
 namespace TennisWeb.Models
 {
-    public class Member
+    public class Coach
     {
         public int Id { get; set; }
-        public string Email { get; set; }
         public string Name { get; set; }
-        public string Age { get; set; }
-        public string Goals { get; set; }
-
+        public string Biography { get; set; }
+        // Navigation properties
         public string ScheduleId { get; set; }
         [ForeignKey("ScheduleId")]
-        public Schedules Schedules { get; set; }
+        public string Schedules { get; set; }
     }
 }
